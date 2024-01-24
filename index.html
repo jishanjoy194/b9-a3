@@ -67,22 +67,24 @@
         
     </header>
     <main class="container mx-auto mt-14">
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full lg:h-[550px]">
-              <img src="./Images/1.png" class="w-full" />
-              <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle bg-black"><span class="text-white">❮</span></a> 
-                <a href="#slide2" class="btn btn-circle bg-black"><span class="text-white">❯</span></a>
-              </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full lg:h-[550px]">
-              <img src="./Images/2.png" class="w-full" />
-              <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle bg-black"><span class="text-white">❮</span></a> 
-                <a href="#slide3" class="btn btn-circle bg-black"><span class="text-white">❯</span></a>
-              </div>
-            </div>              
-        </div>
+        <section>
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full lg:h-[550px]">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle bg-black"><span class="text-white">❮</span></a> 
+                    <a href="#slide2" class="btn btn-circle bg-black"><span class="text-white">❯</span></a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full lg:h-[550px]">
+                  <img src="./Images/2.png" class="w-full" />
+                  <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle bg-black"><span class="text-white">❮</span></a> 
+                    <a href="#slide3" class="btn btn-circle bg-black"><span class="text-white">❯</span></a>
+                  </div>
+                </div>              
+            </div>
+        </section>
         <!-- Radial progress -->
         <div class="mt-3 lg:mt-14 text-center border-y-2 border-dashed">
             <h1 class="font-extrabold text-2xl lg:text-4xl mt-5">Professional Hockeys Club</h1>
@@ -118,9 +120,58 @@
             </div>
             
         </div>
+        <!-- grid section -->
+        <section class="my-24">
+            <div class="mt-3 lg:mt-14 text-center border-y-2 border-dashed">
+              <h1 class="font-extrabold text-2xl lg:text-4xl mt-5">Program Sections</h1>
+              <p class="font-medium text-base text-slate-500 mt-5 mb-5">This training ground has different kind of programs <br> and we provide proper facilities for our players</p>
+            </div>
+            <div class="card w-96 shadow-xl image-full">
+              <figure><img src="./Images/2.png" alt="" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Junior Program</h2>
+                <p>Those aged between 10-16, will be categorized in this program</p>
+                <div class="card-actions">
+                  <button class="btn bg-hockey-primary text-white">Register now!</button>
+                </div>
+              </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-black text-base-content">
+      <aside>
+        <h1 class="text-white font-extrabold text-2xl lg:text-4xl mt-5">Get In Touch</h1>
+        <p class="font-medium text-base text-slate-500 mt-5 mb-5">Masco training club, one of the renowned training club<br/>Providing reliable facilities since 1992</p>
+        <div class="items-center flex gap-4 text-slate-500">
+          <img class="w-6" src="./Images/Group 1171275318.png" alt=""><p>hockeys@support.com</p>
+        </div>
+        <div class="items-center flex gap-4 text-slate-500">
+          <img class="w-6" src="./Images/Group 1171275317.png" alt=""><p>(+62) 123-321-543</p>
+        </div>
+      </aside> 
+      <nav>
+        <header class="footer-title text-white text-lg font-bold">Company</header> 
+        <a class="link link-hover text-slate-500 text-base font-medium">About us</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Leadership</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Careers</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">News & Article</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Legal Notice</a>
+      </nav> 
+      <nav>
+        <header class="footer-title text-white text-lg font-bold">Support</header> 
+        <a class="link link-hover text-slate-500 text-base font-medium">Help Center</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">FAQ</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Ticket Support</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Contact Us</a>
+      </nav> 
+      <nav>
+        <header class="footer-title text-white text-lg font-bold">Services</header> 
+        <a class="link link-hover text-slate-500 text-base font-medium">Academy</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Group Lesson</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Private Lesson</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Hockeys for kids</a>
+        <a class="link link-hover text-slate-500 text-base font-medium">Hockeys for Adult</a>
+      </nav>
     </footer>
 </body>
 </html>
